@@ -1,0 +1,44 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: rgb(2, 48, 2);
+}
+
+#wrapper {
+    margin: 0 auto; 
+}
+
+#game {
+    background: transparent url('Table.Jpeg') 0 0 no-repeat;
+    border-radius:  5px;
+    color: #333;
+    background-position: center; 
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+/* Money */ 
+#money, money:before {
+
+    color:aliceblue;
+    border-radius: 5PX;
+    height: 55px;
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+    width: 250px;
+    padding: 7px; 
+
+}
+
+#money {
+    border: 2px solid ;
+
+}
